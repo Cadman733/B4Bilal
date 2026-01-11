@@ -86,3 +86,52 @@ Below are the visual representations of the B-Thrift user interface:
 1. **Clone the project**
    ```bash
    git clone [https://github.com/Cadman733/B4Bilal.git](https://github.com/Cadman733/B4Bilal.git)
+
+2. Install Composer dependencies
+
+   ```bash
+
+    composer install
+
+3. Setup Environment
+
+   ```bash
+
+    cp .env.example .env
+    php artisan key:generate
+
+4. Run Migrations
+
+   ```bash
+
+    php artisan migrate
+
+
+5. Launch Application
+
+   ```bash
+
+    php artisan serve
+
+
+
+## Conclusion
+B-Thrift successfully demonstrates the implementation of a community-focused marketplace. By leveraging the Laravel framework, we have created a platform that is not only functional but also contributes to the sustainability goals of IIUM.
+
+Key Achievements
+Implemented full CRUD operations for item listings.
+
+Developed a secure authentication system for student safety.
+
+Created a responsive UI using the DevFolio template and Bootstrap.
+
+Aligned project goals with Shariah-compliant and sustainable practices.
+
+
+
+License
+The B-Thrift project is open-sourced software licensed under the MIT license.
+
+
+***
+

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>DevFolio Marketplace</title>
+  <title>B-Thrift Marketplace</title>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <meta name="description" content="">
   <meta name="keywords" content="">
@@ -31,7 +31,7 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="{{ url('/') }}" class="logo d-flex align-items-center">
-        <h1 class="sitename">DevFolio</h1>
+        <h1 class="sitename">B-Thrift</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -72,7 +72,7 @@
   <footer id="footer" class="footer accent-background">
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">DevFolio</strong> <span>All Rights Reserved</span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">B-Thrift</strong> <span>All Rights Reserved</span></p>
       </div>
       <div class="social-links d-flex justify-content-center">
         <a href=""><i class="bi bi-twitter-x"></i></a>

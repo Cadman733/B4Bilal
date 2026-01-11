@@ -51,7 +51,7 @@ We are a team of four students dedicated to building a better thrifting experien
 The system is built on a relational database managed via MySQL, ensuring data integrity between users and their listings.
 
 <p align="center">
-  <img src="public/assets/img/erd_diagram.png" width="600" alt="B-Thrift ERD">
+  <img src="public/assets/img/erdbilal.png" width="300" alt="B-Thrift ERD">
 </p>
 
 
@@ -60,7 +60,7 @@ The system is built on a relational database managed via MySQL, ensuring data in
 This diagram illustrates the interaction between the User, the App, and the Database during the login and item creation process.
 
 <p align="center">
-  <img src="public/assets/img/sequence_diagram.png" width="600" alt="B-Thrift Sequence Diagram">
+  <img src="public/assets/img/seqdbilal.png" width="200" alt="B-Thrift Sequence Diagram">
 </p>
 
 
@@ -75,11 +75,11 @@ Below are the visual representations of the B-Thrift user interface:
 
 | Login Page | Home Page |
 | :---: | :---: |
-| <img src="public/assets/img/login_mockup.png" width="300"> | <img src="public/assets/img/home_mockup.png" width="300"> |
+| <img src="public/assets/img/loginpage.png" width="300"> | <img src="public/assets/img/homepage.png" width="300"> |
 
 | Buying Process | Selling Page |
 | :---: | :---: |
-| <img src="public/assets/img/buy_mockup.png" width="300"> | <img src="public/assets/img/sell_mockup.png" width="300"> |
+| <img src="public/assets/img/buyingprocess.png" width="300"> | <img src="public/assets/img/sellingprocess.png" width="300"> |
 
 ## Installation and Setup
 

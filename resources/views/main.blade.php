@@ -2,7 +2,7 @@
 
 @section('content')
 <section id="hero" class="hero section dark-background">
-    <img src="{{ asset('assets/img/hero-img.jpg') }}" alt="" data-aos="fade-in">
+    <img src="{{ asset('assets/img/bthrift-main.png') }}" alt="B-Thrift Homepage" data-aos="fade-in">
 
     <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up">
         <h2>Welcome, {{ Auth::user()->name }}!</h2>

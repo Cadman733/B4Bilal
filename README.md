@@ -1,54 +1,69 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20Logo%20Vertical/1%20Logo%20Vertical%20Black.svg" width="100" alt="B-Thrift Logo">
+  <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20Logo%20Vertical/1%20Logo%20Vertical%20Black.svg" width="120" alt="B-Thrift Logo">
 </p>
 
 <p align="center">
 <a href="#"><img src="https://img.shields.io/badge/Laravel-11.x-FF2D20?style=for-the-badge&logo=laravel" alt="Laravel Version"></a>
-<a href="#"><img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Build Status"></a>
-<a href="#"><img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License"></a>
+<a href="#"><img src="https://img.shields.io/badge/Course-INFO%202305-blue?style=for-the-badge" alt="Course"></a>
+<a href="#"><img src="https://img.shields.io/badge/Mahallah-Bilal-A27B5E?style=for-the-badge" alt="Location"></a>
 </p>
 
 ## About B-Thrift
 
-[cite_start]**B-Thrift** is a web-based thrift store application exclusively designed for students of the **International Islamic University Malaysia (IIUM)**, with a primary focus on **Mahallah Bilal** residents[cite: 26]. [cite_start]We believe that "One man's garbage is another man's treasure"[cite: 30]. [cite_start]This platform bridges the gap between students who have items they no longer need and those looking for quality goods at affordable prices[cite: 27, 29].
+B-Thrift is a web-based thrift store application developed for the students of **International Islamic University Malaysia (IIUM)**, specifically focusing on **Mahallah Bilal** residents. The platform provides a dedicated marketplace where students can buy and sell pre-loved items such as clothing, books, and daily necessities.
 
-[cite_start]By limiting the platform to Mahallah Bilal, we ensure a safe, trusted, and Shariah-compliant marketplace within our university community[cite: 32, 33].
+Following the philosophy that *"One man's garbage is another man's treasure,"* B-Thrift promotes a circular economy, sustainability, and affordability within the campus community.
 
-### Key Objectives
-- [cite_start]**Secure Trading**: Provide a user-friendly platform for buying and selling second-hand items[cite: 36].
-- [cite_start]**Sustainability**: Promote the reuse of items to reduce waste within IIUM[cite: 37].
-- [cite_start]**Affordability**: Help students save money by offering low-cost alternatives to new products[cite: 38].
-- [cite_start]**Technical Excellence**: Implement a robust MVC architecture using the Laravel framework[cite: 40].
+## Project Objectives
+
+- **Primary Goal**: Create a functional and secure thrift platform for Mahallah Bilal residents.
+- **Sustainability**: Encourage the reuse of items to reduce environmental waste.
+- **Community Support**: Help students save money by providing affordable second-hand alternatives.
+- **Technical Growth**: Implement a robust Web Application using Laravel's MVC architecture and CRUD operations.
 
 ## Features and Functionalities
 
-The application takes the pain out of campus trading by providing:
+### 👤 Student Features
+- **Secure Authentication**: Registration and Login restricted to the student community.
+- **Item Browsing**: View available thrift items with high-quality images and descriptions.
+- **Seller Dashboard**: Full CRUD capabilities—users can create, edit, and delete their own listings.
+- **Contact Integration**: Direct WhatsApp/Contact links to facilitate easy meet-ups at Mahallah Bilal.
 
-- [cite_start]**User Authentication**: Secure login and registration restricted to the community[cite: 42, 43].
-- [cite_start]**Item Management**: Full CRUD operations (Create, Read, Update, Delete) for item listings[cite: 48, 50].
-- [cite_start]**Smart Browsing**: Search bar and category-based filtering to find items efficiently[cite: 53, 54].
-- [cite_start]**Direct Communication**: Secure access to seller contact info to facilitate meet-ups[cite: 59, 60].
-- [cite_start]**Admin Dashboard**: Role-based access control to moderate listings and manage users[cite: 61, 63].
+### ⚙️ System Features
+- **MVC Architecture**: Clean separation of logic using Models, Views, and Controllers.
+- **Image Uploads**: Integration with local storage for product photography.
+- **Form Validation**: Secure data entry to prevent errors and invalid listings.
 
-## Group Members (Section 3)
+## Group Information (Section 3)
 
-[cite_start]We would like to extend our thanks to the following group members for their contribution to this project[cite: 13]:
+We are a team of four students dedicated to building a better thrifting experience for our Mahallah:
 
-- [cite_start]**ARSHAD SULAIMAN BIN AZLI** - 2313957 
-- [cite_start]**ANANG PUTERA BIN SELAMAT** - 2310711 
-- [cite_start]**AMIR AZFAR BIN MUSTAFA KAMAL** - 2315719 
-- [cite_start]**ASHRAF FAQIHI BIN AHMAD FAKHRUDIN** - 2314689 
+| Name | Matric No | Role |
+| :--- | :--- | :--- |
+| **ARSHAD SULAIMAN BIN AZLI** | 2313957 | Project Lead / Backend |
+| **ANANG PUTERA BIN SELAMAT** | 2310711 | Database / Logic |
+| **AMIR AZFAR BIN MUSTAFA KAMAL** | 2315719 | UI/UX Designer |
+| **ASHRAF FAQIHI BIN AHMAD FAKHRUDIN** | 2314689 | Documentation / QA |
 
 ## Technical Implementation
 
-### Database Schema
-[cite_start]Our database is designed for efficiency and includes the following core entities[cite: 70]:
-- [cite_start]**User**: Handles authentication and roles (PK user_id)[cite: 71, 72].
-- [cite_start]**Item**: Manages product details, pricing, and images (PK item_id)[cite: 79, 80].
-- [cite_start]**Category**: Organizes items into searchable groups (PK category_id)[cite: 89, 90].
+### Database Design (ERD)
+The system is built on a relational database managed via MySQL, ensuring data integrity between users and their listings.
 
 
 
-## License
+**Key Tables:**
+- `users`: Manages student accounts and authentication.
+- `products`: Stores item details (name, price, category, image).
+- `sessions`: Handles secure user login states.
 
-The B-Thrift project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Core Laravel Components
+- **Routes**: Clean, SEO-friendly URLs using `web.php`.
+- **Controllers**: Logic handling via `ProductController`, `AuthController`, and `ContactController`.
+- **Blade Templates**: Responsive UI built with Bootstrap and Laravel Blade.
+
+## Installation and Setup
+
+1. **Clone the project**
+   ```bash
+   git clone [https://github.com/your-username/B-Thrift.git](https://github.com/your-username/B-Thrift.git)

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20Logo%20Vertical/1%20Logo%20Vertical%20Black.svg" width="120" alt="B-Thrift Logo">
+  <img src="public/assets/img/B4Blogo.png" width="120" alt="B-Thrift Logo">
 </p>
 
 <p align="center">
@@ -50,20 +50,39 @@ We are a team of four students dedicated to building a better thrifting experien
 ### Database Design (ERD)
 The system is built on a relational database managed via MySQL, ensuring data integrity between users and their listings.
 
+<p align="center">
+  <img src="public/assets/img/erd_diagram.png" width="600" alt="B-Thrift ERD">
+</p>
 
 
-**Key Tables:**
-- `users`: Manages student accounts and authentication.
-- `products`: Stores item details (name, price, category, image).
-- `sessions`: Handles secure user login states.
+
+### Sequence Diagram
+This diagram illustrates the interaction between the User, the App, and the Database during the login and item creation process.
+
+<p align="center">
+  <img src="public/assets/img/sequence_diagram.png" width="600" alt="B-Thrift Sequence Diagram">
+</p>
+
+
 
 ### Core Laravel Components
 - **Routes**: Clean, SEO-friendly URLs using `web.php`.
 - **Controllers**: Logic handling via `ProductController`, `AuthController`, and `ContactController`.
 - **Blade Templates**: Responsive UI built with Bootstrap and Laravel Blade.
 
+## Mockups & Interface
+Below are the visual representations of the B-Thrift user interface:
+
+| Login Page | Home Page |
+| :---: | :---: |
+| <img src="public/assets/img/login_mockup.png" width="300"> | <img src="public/assets/img/home_mockup.png" width="300"> |
+
+| Buying Process | Selling Page |
+| :---: | :---: |
+| <img src="public/assets/img/buy_mockup.png" width="300"> | <img src="public/assets/img/sell_mockup.png" width="300"> |
+
 ## Installation and Setup
 
 1. **Clone the project**
    ```bash
-   git clone [https://github.com/your-username/B-Thrift.git](https://github.com/your-username/B-Thrift.git)
+   git clone [https://github.com/Cadman733/B4Bilal.git](https://github.com/Cadman733/B4Bilal.git)

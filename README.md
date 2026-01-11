@@ -1,59 +1,54 @@
-<p align="center"><a href="https://laravel.com" target="_blank"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20Logo%20Vertical/1%20Logo%20Vertical%20Black.svg" width="100" alt="B-Thrift Logo">
 </p>
 
-## About Laravel
+<p align="center">
+<a href="#"><img src="https://img.shields.io/badge/Laravel-11.x-FF2D20?style=for-the-badge&logo=laravel" alt="Laravel Version"></a>
+<a href="#"><img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Build Status"></a>
+<a href="#"><img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License"></a>
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## About B-Thrift
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+[cite_start]**B-Thrift** is a web-based thrift store application exclusively designed for students of the **International Islamic University Malaysia (IIUM)**, with a primary focus on **Mahallah Bilal** residents[cite: 26]. [cite_start]We believe that "One man's garbage is another man's treasure"[cite: 30]. [cite_start]This platform bridges the gap between students who have items they no longer need and those looking for quality goods at affordable prices[cite: 27, 29].
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+[cite_start]By limiting the platform to Mahallah Bilal, we ensure a safe, trusted, and Shariah-compliant marketplace within our university community[cite: 32, 33].
 
-## Learning Laravel
+### Key Objectives
+- [cite_start]**Secure Trading**: Provide a user-friendly platform for buying and selling second-hand items[cite: 36].
+- [cite_start]**Sustainability**: Promote the reuse of items to reduce waste within IIUM[cite: 37].
+- [cite_start]**Affordability**: Help students save money by offering low-cost alternatives to new products[cite: 38].
+- [cite_start]**Technical Excellence**: Implement a robust MVC architecture using the Laravel framework[cite: 40].
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## Features and Functionalities
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+The application takes the pain out of campus trading by providing:
 
-## Laravel Sponsors
+- [cite_start]**User Authentication**: Secure login and registration restricted to the community[cite: 42, 43].
+- [cite_start]**Item Management**: Full CRUD operations (Create, Read, Update, Delete) for item listings[cite: 48, 50].
+- [cite_start]**Smart Browsing**: Search bar and category-based filtering to find items efficiently[cite: 53, 54].
+- [cite_start]**Direct Communication**: Secure access to seller contact info to facilitate meet-ups[cite: 59, 60].
+- [cite_start]**Admin Dashboard**: Role-based access control to moderate listings and manage users[cite: 61, 63].
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Group Members (Section 3)
 
-### Premium Partners
+[cite_start]We would like to extend our thanks to the following group members for their contribution to this project[cite: 13]:
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+- [cite_start]**ARSHAD SULAIMAN BIN AZLI** - 2313957 
+- [cite_start]**ANANG PUTERA BIN SELAMAT** - 2310711 
+- [cite_start]**AMIR AZFAR BIN MUSTAFA KAMAL** - 2315719 
+- [cite_start]**ASHRAF FAQIHI BIN AHMAD FAKHRUDIN** - 2314689 
 
-## Contributing
+## Technical Implementation
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Database Schema
+[cite_start]Our database is designed for efficiency and includes the following core entities[cite: 70]:
+- [cite_start]**User**: Handles authentication and roles (PK user_id)[cite: 71, 72].
+- [cite_start]**Item**: Manages product details, pricing, and images (PK item_id)[cite: 79, 80].
+- [cite_start]**Category**: Organizes items into searchable groups (PK category_id)[cite: 89, 90].
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The B-Thrift project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

@@ -8,7 +8,10 @@ use Illuminate\Support\Facades\Auth;
 
 // --- Public Routes ---
 Route::get('/', function () {
-    return redirect()->route('login');
+    if (Auth::check()) {
+        return redirect()->route('main'); // If already logged in, go to main page
+    }
+    return view('auth.login'); // If not logged in, just SHOW the login page (don't redirect)
 });
 
 // Guest only routes (Login/Register)

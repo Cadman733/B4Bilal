@@ -3,15 +3,15 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ProductController;
-use Illuminate\Http\Request;
+use App\Http\Controllers\ContactController; // Imported correctly
 use Illuminate\Support\Facades\Auth;
 
 // --- Public Routes ---
 Route::get('/', function () {
     if (Auth::check()) {
-        return redirect()->route('main'); // If already logged in, go to main page
+        return redirect()->route('main'); 
     }
-    return view('auth.login'); // If not logged in, just SHOW the login page (don't redirect)
+    return view('auth.login'); 
 });
 
 // Guest only routes (Login/Register)
@@ -45,4 +45,7 @@ Route::middleware('auth')->group(function () {
 
     // Logout
     Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+
+    // Contact Page (Display Only)
+    Route::get('/contact', [ContactController::class, 'show'])->name('contact.show');
 });

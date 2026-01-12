@@ -5,7 +5,7 @@
     <div class="container">
         <div class="d-flex justify-content-between align-items-center mb-4">
             <h2>My Listings</h2>
-            <a href="{{ route('products.create') }}" class="btn btn-primary">Sell New Item</a>
+            <a href="{{ route('products.create') }}" class="btn btn-bthrift">Sell New Item</a>
         </div>
 
         @if(session('success'))

@@ -47,7 +47,7 @@
                             <input type="file" name="picture" class="form-control" required>
                         </div>
 
-                        <button type="submit" class="btn btn-primary w-100 py-2">Post Listing</button>
+                        <button type="submit" class="btn btn-bthrift w-100 py-2">Post Listing</button>
                     </form>
                 </div>
             </div>
@@ -62,7 +62,7 @@
         text: 'Your item is now live in the marketplace.',
         icon: 'success',
         confirmButtonText: 'Go to Dashboard',
-        confirmButtonColor: '#0d6efd',
+        confirmButtonColor: '#a27b5e',
         allowOutsideClick: false
     }).then((result) => {
         if (result.isConfirmed) {

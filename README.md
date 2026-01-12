@@ -1,59 +1,133 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="public/assets/img/B4Blogo.png" width="120" alt="B-Thrift Logo">
 </p>
 
-## About Laravel
+<p align="center">
+<a href="#"><img src="https://img.shields.io/badge/Laravel-11.x-FF2D20?style=for-the-badge&logo=laravel" alt="Laravel Version"></a>
+<a href="#"><img src="https://img.shields.io/badge/Course-INFO%202305-blue?style=for-the-badge" alt="Course"></a>
+<a href="#"><img src="https://img.shields.io/badge/Mahallah-Bilal-A27B5E?style=for-the-badge" alt="Location"></a>
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## About B-Thrift
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+B-Thrift is a web-based thrift store application developed for the students of **International Islamic University Malaysia (IIUM)**, specifically focusing on **Mahallah Bilal** residents. The platform provides a dedicated marketplace where students can buy and sell pre-loved items such as clothing, books, and daily necessities.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Following the philosophy that *"One man's garbage is another man's treasure,"* B-Thrift promotes a circular economy, sustainability, and affordability within the campus community.
 
-## Learning Laravel
+## Project Objectives
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+- **Primary Goal**: Create a functional and secure thrift platform for Mahallah Bilal residents.
+- **Sustainability**: Encourage the reuse of items to reduce environmental waste.
+- **Community Support**: Help students save money by providing affordable second-hand alternatives.
+- **Technical Growth**: Implement a robust Web Application using Laravel's MVC architecture and CRUD operations.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Features and Functionalities
 
-## Laravel Sponsors
+### 👤 Student Features
+- **Secure Authentication**: Registration and Login restricted to the student community.
+- **Item Browsing**: View available thrift items with high-quality images and descriptions.
+- **Seller Dashboard**: Full CRUD capabilities—users can create, edit, and delete their own listings.
+- **Contact Integration**: Direct WhatsApp/Contact links to facilitate easy meet-ups at Mahallah Bilal.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### ⚙️ System Features
+- **MVC Architecture**: Clean separation of logic using Models, Views, and Controllers.
+- **Image Uploads**: Integration with local storage for product photography.
+- **Form Validation**: Secure data entry to prevent errors and invalid listings.
 
-### Premium Partners
+## Group Information (Section 3)
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+We are a team of four students dedicated to building a better thrifting experience for our Mahallah:
 
-## Contributing
+| Name | Matric No | Role |
+| :--- | :--- | :--- |
+| **ARSHAD SULAIMAN BIN AZLI** | 2313957 | Project Lead / Backend |
+| **ANANG PUTERA BIN SELAMAT** | 2310711 | Database / Logic |
+| **AMIR AZFAR BIN MUSTAFA KAMAL** | 2315719 | UI/UX Designer |
+| **ASHRAF FAQIHI BIN AHMAD FAKHRUDIN** | 2314689 | Documentation / QA |
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Technical Implementation
 
-## Code of Conduct
+### Database Design (ERD)
+The system is built on a relational database managed via MySQL, ensuring data integrity between users and their listings.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<p align="center">
+  <img src="public/assets/img/erdbilal.png" width="300" alt="B-Thrift ERD">
+</p>
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
+### Sequence Diagram
+This diagram illustrates the interaction between the User, the App, and the Database during the login and item creation process.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<p align="center">
+  <img src="public/assets/img/seqdbilal.png" width="200" alt="B-Thrift Sequence Diagram">
+</p>
+
+
+
+### Core Laravel Components
+- **Routes**: Clean, SEO-friendly URLs using `web.php`.
+- **Controllers**: Logic handling via `ProductController`, `AuthController`, and `ContactController`.
+- **Blade Templates**: Responsive UI built with Bootstrap and Laravel Blade.
+
+## Mockups & Interface
+Below are the visual representations of the B-Thrift user interface:
+
+| Login Page | Home Page |
+| :---: | :---: |
+| <img src="public/assets/img/loginpage.png" width="300"> | <img src="public/assets/img/homepage.png" width="300"> |
+
+| Buying Process | Selling Page |
+| :---: | :---: |
+| <img src="public/assets/img/buyingprocess.png" width="300"> | <img src="public/assets/img/sellingprocess.png" width="300"> |
+
+## Installation and Setup
+
+1. **Clone the project**
+   ```bash
+   git clone [https://github.com/Cadman733/B4Bilal.git](https://github.com/Cadman733/B4Bilal.git)
+
+2. Install Composer dependencies
+
+   ```bash
+
+    composer install
+
+3. Setup Environment
+
+   ```bash
+
+    cp .env.example .env
+    php artisan key:generate
+
+4. Run Migrations
+
+   ```bash
+
+    php artisan migrate
+
+
+5. Launch Application
+
+   ```bash
+
+    php artisan serve
+
+
+
+## Conclusion
+B-Thrift successfully demonstrates the implementation of a community-focused marketplace. By leveraging the Laravel framework, we have created a platform that is not only functional but also contributes to the sustainability goals of IIUM.
+
+Key Achievements
+Implemented full CRUD operations for item listings.
+
+Developed a secure authentication system for student safety.
+
+Created a responsive UI using the DevFolio template and Bootstrap.
+
+Aligned project goals with Shariah-compliant and sustainable practices.
+
+
+
+License
+The B-Thrift project is open-sourced software licensed under the MIT license.

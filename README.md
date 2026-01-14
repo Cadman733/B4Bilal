@@ -125,9 +125,38 @@ Developed a secure authentication system for student safety.
 
 Created a responsive UI using the DevFolio template and Bootstrap.
 
-Aligned project goals with Shariah-compliant and sustainable practices.
 
+Aligned project goals with Shariah-compliant and sustainable practices.
 
 
 License
 The B-Thrift project is open-sourced software licensed under the MIT license.
+
+
+## Guide
+
+### Account Resgitration
+<img src="guidepic/login.png" width="300">
+<img src="guidepic/register.png" width="300">
+<img src="guidepic/login.png" width="300">
+
+### Buying
+<img src="guidepic/Home.png" width="300">
+<img src="guidepic/buy1.png" width="300">
+
+### Selling Items
+<img src="guidepic/Home.png" width="300">
+<img src="guidepic/sell1.png" width="300">
+<img src="guidepic/sell2.png" width="300">
+
+### Managing items (editing items)
+<img src="guidepic/Home.png" width="300">
+<img src="guidepic/manage1.png" width="300">
+<img src="guidepic/manage2.png" width="300">
+<img src="guidepic/manage3.png" width="300">
+
+### Managing items (delete items)
+<img src="guidepic/Home.png" width="300">
+<img src="guidepic/manage3.png" width="300">
+<img src="guidepic/delete1.png" width="300">
+<img src="guidepic/delete2.png" width="300">
